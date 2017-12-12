@@ -1,0 +1,56 @@
+{
+   "name": "Single VM deployment on Microsoft Azure",
+   "description": "A simple vm deployment to test connectivity.",
+   "version": "1.0.0.0",
+   "type": "prebuilt",
+   "manifest": {
+     "template_type": "Terraform",
+     "template_format": "HCL",
+     "template_provider": "Microsoft Azure",
+     "template": {
+       "templateData": "",
+       "templateVariables": "",
+       "templateOutput": ""
+     },
+     "template_source": {
+       "githubRepoUrl": "",
+       "githubAccessToken": "",
+       "relativePathToTemplateFolder": "Azure/SingleVM",
+       "templateFileName": "singlevm.tf"
+     }
+   },
+   "metadata": {
+     "displayName": "Single VM eployment on Microsoft Azure",
+     "longDescription": "Deploys a Single Ubuntu Server with Public IP.",
+     "bullets": [
+       {
+         "title": "Clouds",
+         "description": "Microsoft Azure"
+       },
+       {
+         "title": "Template version",
+         "description": "V1.0"
+       },
+       {
+         "title": "Operating systems supported",
+         "description": "Microsoft Azure: Ubuntu 16.04"
+       },
+       {
+         "title": "Topology",
+         "description": "Sinngle VM"
+       },
+       {
+         "title": "Software deployed",
+         "description": "Ubuntu Server"
+       },
+       {
+         "title": "Default virtual machine settings",
+         "description": "<ul><li>Microsoft Azure:<ul style=\"margin-left: 20px;\"><li>Flavor:<ul style=\"margin-left: 20px;\"><li>MongoDB: Standard_A1<ul style=\"margin-left: 20px;\"><li>Cores - 1</li><li>Memory - 1.75GB</li><li>Storage - 40GB</li></ul></li><li>Front end: Standard_A2<ul style=\"margin-left: 20px;\"><li>Cores - 2</li><li>Memory - 3.5GB</li><li>Storage - 60GB</li></ul></li></ul></li><li>Network:<ul style=\"margin-left: 20px;\"><li>MongoDB:<ul style=\"margin-left: 20px;\"><li>Private IP - In 10.0.1.0/24</li><li>Public IP - Computed</li></ul></li><li>Front end:<ul style=\"margin-left: 20px;\"><li>Private IP - In 10.0.2.0/24</li><li>Public IP - Computed</li></ul></li></ul></li><li>Firewall:<ul style=\"margin-left: 20px;\"><li>MongoDB:<ul style=\"margin-left: 20px;\"><li>Ingress - Allows SSH from all sources, and TCP 27017 only from 10.0.2.0/24</li><li>Egress - All</li></ul></li><li>Front end:<ul style=\"margin-left: 20px;\"><li>Ingress - Allows SSH, and TCP 8443 from all sources</li><li>Egress - All</li></ul></li></ul></li></ul></li></ul>"
+       },
+       {
+         "title": "Usage and special notes",
+         "description": "<ul><li>1. Downloads latest releases of software.</li><li>2. To access the application and virtual machines, please see the instructions in the output log.</li><li>3. The sample application in this deployment is from the open source project <a href=\"https://github.com/meanjs/mean\">https://github.com/meanjs/mean</a> and more details can be found in <a href=\"http://mean.io/\">http://mean.io/</a>.</li></ul>"
+       }
+     ]
+   }
+ }
