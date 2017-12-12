@@ -41,7 +41,7 @@
        },
        {
          "title": "Usage and special notes",
-         "description": "<ul><li>1. Downloads latest releases of software.</li><li>2. To access the application and virtual machines, please see the instructions in the output log.</li><li>3. The sample application in this deployment is from the open source project <a href=\"https://github.com/meanjs/mean\">https://github.com/meanjs/mean</a> and more details can be found in <a href=\"http://mean.io/\">http://mean.io/</a>.</li></ul>"
+         "description": "<ul><li>1. Downloads latest releases of software.</li><li>2. To access the application and virtual machines, please see the instructions in the output log.</li></ul>"
        }
      ]
    }
