@@ -20,7 +20,7 @@
      }
    },
    "metadata": {
-     "displayName": "Single VM eployment on Microsoft Azure",
+     "displayName": "Single VM Deployment on Microsoft Azure",
      "longDescription": "Deploys a Single Ubuntu Server with Public IP.",
      "bullets": [
        {
@@ -37,15 +37,7 @@
        },
        {
          "title": "Topology",
-         "description": "Sinngle VM"
-       },
-       {
-         "title": "Software deployed",
-         "description": "Ubuntu Server"
-       },
-       {
-         "title": "Default virtual machine settings",
-         "description": "<ul><li>Microsoft Azure:<ul style=\"margin-left: 20px;\"><li>Flavor:<ul style=\"margin-left: 20px;\"><li>MongoDB: Standard_A1<ul style=\"margin-left: 20px;\"><li>Cores - 1</li><li>Memory - 1.75GB</li><li>Storage - 40GB</li></ul></li><li>Front end: Standard_A2<ul style=\"margin-left: 20px;\"><li>Cores - 2</li><li>Memory - 3.5GB</li><li>Storage - 60GB</li></ul></li></ul></li><li>Network:<ul style=\"margin-left: 20px;\"><li>MongoDB:<ul style=\"margin-left: 20px;\"><li>Private IP - In 10.0.1.0/24</li><li>Public IP - Computed</li></ul></li><li>Front end:<ul style=\"margin-left: 20px;\"><li>Private IP - In 10.0.2.0/24</li><li>Public IP - Computed</li></ul></li></ul></li><li>Firewall:<ul style=\"margin-left: 20px;\"><li>MongoDB:<ul style=\"margin-left: 20px;\"><li>Ingress - Allows SSH from all sources, and TCP 27017 only from 10.0.2.0/24</li><li>Egress - All</li></ul></li><li>Front end:<ul style=\"margin-left: 20px;\"><li>Ingress - Allows SSH, and TCP 8443 from all sources</li><li>Egress - All</li></ul></li></ul></li></ul></li></ul>"
+         "description": "Single VM"
        },
        {
          "title": "Usage and special notes",
